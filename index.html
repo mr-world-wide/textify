@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Textify</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script type="module" crossorigin src="./main.js"></script>
+</head>
+<body>
+  <div data-controller="recorder transcription text-insertion">
+    <div class="card">
+      <div class="header">
+        <img src="images/icon.png" alt="Whisper Icon">
+        <h1>Textify</h1>
+      </div>
+      <div class="status" data-recorder-target="status" data-transcription-target="status">Click where you want Textify to type for you</div>
+      <div class="buttons">
+        <button data-recorder-target="start" data-action="click->recorder#startRecording">Start Speaking</button>
+        <button data-recorder-target="stop" data-action="click->recorder#stopRecording" disabled>Stop Recording</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

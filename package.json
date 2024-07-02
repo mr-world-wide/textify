@@ -1,0 +1,13 @@
+{
+  "name": "vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "vite": "^4.5.1"
+  }
+}
